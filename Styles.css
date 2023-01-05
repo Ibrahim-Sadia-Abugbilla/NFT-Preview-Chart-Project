@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    padding-top: 50px;
+}
+.main-container{
+    background-color: darkslategrey;
+    margin: 0 auto 0 auto;
+    height: 600px;
+    width: 350px;
+    border-radius: 20px;
+    padding-top: 50px;
+}
+.container{
+    background-color: blue;
+    height: 550px;
+    width: 290px;
+    margin: 0 auto 0 auto;
+    border-radius: 20px;
+    padding-right: 30px;
+    
+    
+}
+.image{
+    width: 270px;
+    margin:10px 50px 50px 25px;
+    border-radius: 10px; 
+      
+}
+.Brium{
+color:white;
+padding-left: 20px;
+}
+.promo{
+padding-left: 20px;
+color: lightgrey;
+}

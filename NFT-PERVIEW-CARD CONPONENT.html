@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://127.0.0.1:5500/images/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT-PERVIEW-CARD CONPONENT</title>
+    <link rel="stylesheet" href="./NFT-PERVIEW-CARD CONPONENT_files/styles.css">
+</head>
+<body>
+<div class="main-container">
+    <div class="container">
+<img class="image" src="./NFT-PERVIEW-CARD CONPONENT_files/image-equilibrium.jpg" alt="">
+<h2 class="brium">Equilibrium #3429</h2>
+<h4 class="collect">Our Equilibrium collected promotes<br> balance and calm</h4>
+<h3 class="credis">0.041ETH</h3>
+<img class="icon" src="./NFT-PERVIEW-CARD CONPONENT_files/icon-ethereum.svg" alt=""> 
+<h5 class="days">3 days left</h5>
+<img class="clock" src="./NFT-PERVIEW-CARD CONPONENT_files/icon-clock.svg" alt="">
+<hr>
+<h3 id="creation">Creation  of <span class="jules"> jules  wyvern</span></h3>
+<div class="img-cover">
+    <img class="images" src="./NFT-PERVIEW-CARD CONPONENT_files/image-avatar.png" alt="">
+</div>
+</div>
+</div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

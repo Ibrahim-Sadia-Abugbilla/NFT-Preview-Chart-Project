@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    padding-top: 50px;
+    font-family: 'Outfit', sans-serif;
+}
+.main-container{
+    background-color:hsl(217, 54%, 11%) ;
+     margin: 0 auto 0 auto; 
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+.container{
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height:500px;
+    border-radius:10px ;
+    margin: 0 auto 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+  
+}
+
+.image{
+    width: 300px;
+    height: 250px;
+     margin: 10px 9px; 
+    border-radius: 10px;
+    
+}
+.brium{
+    color: white;
+    padding-left: 15px;
+    
+}
+.collect{
+    color: hsl(215, 32%, 27%);
+    padding-left: 15px;
+    padding-top: 15px;
+
+}
+.credis{
+    color: lightblue;
+    padding-left: 33px;
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 20px;
+     
+}
+.icon{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+} 
+.days{
+    color: lightgray;
+    float: right;
+  padding-top: 20px;
+  padding-right: 10px;
+   
+}
+.clock{
+float: right;
+padding-top: 20px;
+padding-right: 10px;
+}
+#creation{
+    color: darkslateblue;
+    padding-left: 50px;
+    position: absolute;
+    padding-top: 30px;
+    
+}
+.img-cover{
+    /* padding-top: 20px; */
+    /* padding-left: 20px; */
+    padding-top: 30px;
+  
+}
+.img-cover img{
+    width: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    
+}
+.jules{
+    color: lightblue;
+}
